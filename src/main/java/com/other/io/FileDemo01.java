@@ -16,7 +16,7 @@ public class FileDemo01 {
 //    File(String pathname)
 //    通过将给定的路径名字符串转换为抽象路径名来创建新的 File实例。
         File file = new File("D:\\IntelliJ IDEAworkplace2\\项目\\other\\src\\main\\resources\\img\\preview2.jpg");
-
+        file.getName();
 //    File(String parent, String child)
 //    从父路径名字符串和子路径名字符串创建新的 File实例。
         File file1 = new File("D:/IntelliJ IDEAworkplace2/项目/other/src","/main/resources/img/preview2.jpg");
