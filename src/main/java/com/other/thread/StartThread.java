@@ -9,10 +9,10 @@ package com.other.thread;
 public class StartThread extends Thread{
 
     public static void main(String[] args) {
-        //创建子类对象
+        //创建子类对象——StartThread
         StartThread startThread =new StartThread();
-//        startThread.start();
-        startThread.run();//普通方法调用
+        startThread.start();//不保证线程中的方法立即运行，看cpu调用
+//        startThread.run();//普通方法调用
         for (int i=0;i<20;i++){
             System.out.println("一边打代码");
         }
